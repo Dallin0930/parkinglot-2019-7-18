@@ -9,9 +9,11 @@ public class ParkingLot {
     private Long id;
     @Column(unique = true)
     private String name;
+
     @Column
     private  Integer capacity;
     private String location;
+
 
     public ParkingLot() {
     }
